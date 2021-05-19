@@ -1,0 +1,28 @@
+{
+  "name": "employeetracker",
+  "version": "1.0.0",
+  "description": "To track employees in a company",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fortega328/EmployeeTracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fortega328/EmployeeTracker/issues"
+  },
+  "homepage": "https://github.com/fortega328/EmployeeTracker#readme",
+  "dependencies": {
+    "console-table-printer": "^2.9.0",
+    "console.table": "^0.10.0",
+    "dotenv": "^9.0.2",
+    "inquirer": "^8.0.0",
+    "mysql": "^2.18.1",
+    "util": "^0.12.3"
+  }
+}
